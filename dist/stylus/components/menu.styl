@@ -1,0 +1,114 @@
+#navigation
+  position fixed
+  width 100%
+  display flex
+  flex-direction row
+
+.overlay
+  width 100%
+  background linear-gradient(-160deg, #C2E59C 0%, #89BFEC 72%)
+  opacity 0.9
+  z-index 1000
+
+nav
+  width 100%
+  max-width 190px
+  height 100%
+  background-color $color--lighter-blue
+
+  .nav__list
+    padding-top 34px
+
+  .nav__item
+    margin-bottom 14px
+    padding-left 24px
+    font-size 16px
+    border-left 4px solid transparent
+    white-space nowrap
+    overflow hidden
+
+    & > a
+      color #444444
+
+  .active
+    border-left 4px solid #e53935
+
+#navigation.closed
+  nav
+    width 0
+
+#navigation.opened
+  position fixed
+  height 100%
+  z-index 3000
+
+  nav
+    z-index 2000
+
+  & + main
+    .overlay
+      display block
+
+.menu-button
+    position absolute
+    top 16px
+    left 20px
+    z-index 3000
+
+    img
+      width 25px
+      height 25px
+
+  .menu
+    font-size 0
+
+    a
+      display block
+      width 100%
+      padding-bottom 100%
+      color #444
+      font-size 14px
+
+    .item
+      position relative
+      display inline-block
+      width 50%
+      height 0
+      padding-bottom 50%
+      .item-text
+        position absolute
+        bottom 34px
+        left 50%
+        transform translateX(-50%)
+
+      &__image
+        position absolute
+        top 50%
+        left 50%
+        transform translate(-50%, -50%)
+        margin-top -15px
+
+.icon
+  position absolute
+  top 10px
+  left 140px
+  display inline-block
+  width 20px
+  height 20px
+
+  &::before,
+  &::after
+    position absolute
+    display block
+    content ''
+    width 3px
+    height 20px
+    -webkit-transform rotate(-45deg)
+    -o-transform rotate(-45deg)
+    transform rotate(-45deg)
+    background-color #666
+    border-radius 10px
+  &::after
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);

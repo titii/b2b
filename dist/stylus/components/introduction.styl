@@ -1,0 +1,54 @@
+.page--introduction
+  padding-bottom 50px
+  background-image linear-gradient(-160deg, #C2E59C 0%, #89BFEC 72%)
+  background-size cover
+  background-color transparent
+
+  .heading
+    padding 44px 0 36px
+    font-size 16px
+    font-weight normal
+    text-align center
+
+  .description
+    margin 0 30px 25px
+
+  .button
+    position relative
+    display block
+    width 160px
+    height 160px
+    margin 0 auto
+
+    &__text
+      position absolute
+      display block
+      top 50%
+      left 50%
+      transform translate(-50%, -50%)
+      color #E53935
+      font-size 20px
+      text-align center
+
+    &__icon
+      position absolute
+      top 50%
+      left 50%
+      transform translate(-50%, -50%)
+      margin-top -40px
+      margin-left -25px
+
+    svg
+      transform rotate(-90deg)
+
+    circle
+      fill transparent
+      stroke #e53935
+      stroke-width 2
+      animation circle 1s 1
+
+@keyframes circle
+  0%
+    stroke-dasharray 0 510
+  99.9%,to
+    stroke-dasharray 510 510

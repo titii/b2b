@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="3147px" viewBox="0 0 44 3147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>red_line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="international_date_line" transform="translate(-10.000000, -38.000000)" stroke="#E53935">
+            <polyline id="red_line" points="21.2006455 38 21.2006455 132.484663 33.0522125 139.503526 11 168.601344 22.3861631 175.235063 22.3861631 288.853634 53 289.334683 53 324.691343 36.7904912 324.691343 22.3107081 317.541002 22.3107081 327.872353 27.9372209 333.498866 27.9372209 369.137407 23.352024 373.722604 23.352024 728.335938 23.352024 755.753906 23.352024 923.792969 43.352024 923.710937 43.352024 971.699219 23.352024 971.683594 23.352024 3184.60093"></polyline>
+        </g>
+    </g>
+</svg>

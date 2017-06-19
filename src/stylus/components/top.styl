@@ -1,0 +1,80 @@
+@keyframes top-line-fadeout
+  0%
+    right 30px
+    width 50px
+    opacity 1
+  20%
+    right 30px
+    width 50px
+    opacity 0.8
+  40%
+    right 30px
+    width 50px
+    opacity 0.6
+  60%
+    right 30px
+    width 50px
+    opacity 0.4
+  80%
+    right 30px
+    width 50px
+    opacity 0.2
+  100%
+    right 80px
+    width 0
+    opacity 0
+
+.top
+  min-width 320px
+
+  .line-animation
+    position absolute
+    right 30px
+    overflow hidden
+    height 100%
+    z-index 10000
+    animation-name top-line-fadeout
+    animation-duration 2s
+    animation-timing-function ease
+    animation-delay 0.4s
+    animation-fill-mode forwards
+
+    img
+      position absolute
+      height auto
+
+ul
+  list-style none
+.lighter-blue
+  background-color $color--lighter-blue
+
+.light-blue
+  background-color $color--light-blue
+
+.deactivate
+  background-color #000000
+  opacity 0.63
+
+.section
+  position relative
+  height 160px
+
+  img
+    width 100%
+    height 100%
+
+  .logo
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
+    width 148px
+    height 74px
+    z-index 2000
+
+.menu
+  .item
+    .updated
+      position absolute
+      top 0
+      right 0
